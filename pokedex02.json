@@ -1,0 +1,61 @@
+{
+ "pokemon" : [
+    {
+        "nom": "Bulbizarre",
+        "niveau": 5,
+        "pv": 100,
+        "attaque": 0,
+        "defense": 0,
+        "resistance": "Eau",
+        "faiblesse": "Feu",
+        "capacite1": "Charge",
+        "puissance1": 20,
+        "capacite2": "Fouet-Liane", 
+        "puissance2": 40
+
+    },
+    {
+    "nom": "Salameche",
+    "niveau": 5,
+    "pv": 100,
+    "attaque": 0,
+    "defense": 0,
+    "resistance": "Plante",
+    "faiblesse": "Eau",
+    "capacite1": "Griffe",
+    "puissance1": 20,
+    "capacite2": "Flammeche", 
+    "puissance2": 40
+
+    },
+    {
+        "nom": "Carapuce",
+        "niveau": 5,
+        "pv": 100,
+        "attaque": 0,
+        "defense": 0,
+        "resistance": "Feu",
+        "faiblesse": "Plante",
+        "capacite1": "Charge",
+        "puissance1": 20,
+        "capacite2": "Pistolet a O", 
+        "puissance2": 40
+      },
+      {
+        "nom": "Evoli",
+        "niveau": 5,
+        "pv": 100,
+        "attaque": 0,
+        "defense": 0,
+        "resistance": "Normal",
+        "faiblesse": "Feu",
+        "capacite1": "Charge",
+        "puissance1": 20,
+        "capacite2": "Vive-Attaque", 
+        "puissance2": 40
+      }
+
+ ] 
+ 
+}
+
