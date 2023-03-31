@@ -1,3 +1,4 @@
+
 class Pokemon:
     
     def __init__(self, nom, pv, niveau, attaque, defense):
@@ -42,17 +43,22 @@ class Pokemon:
 
     def offensive(self):
        print (x.nom, "utilise", x.capacite1)
+       
        x.attaque = 20
        y.pv = y.pv - x.attaque
        print ("Il reste",y.pv , "PV au", y.nom, "adverse")
        check_ko(self)
+       contre_offensive(self)
 
-    def contre_offensive(self):
-       print (y.nom, "utilise", y.capacite1)
-       y.attaque = 20
-       x.pv = y.pv - y.attaque
-       print ("Il reste",x.pv , "PV au", x.nom, "adverse")
+    def offensive2(self):
+       print (x.nom, "utilise", x.capacite2)
+       x.attaque = 40
+       y.pv = y.pv - x.attaque
+       print ("Il reste",y.pv , "PV au", y.nom, "adverse")
        check_ko(self)
+       contre_offensive(self)
+
+    
        
 
 
@@ -142,6 +148,14 @@ print (y.nom, y.attaque, y.capacite2)
 mon_pokemon_allie = Pokemon(x.nom, x.niveau, x.pv, x.attaque, x.defense )
 mon_pokemon_adverse = Pokemon(y.nom, y.niveau, y.pv, y.attaque, y.defense )
 
+
+def contre_offensive(self):
+       print (y.nom, "adverse utilise", y.capacite1)
+       y.attaque = 20
+       x.pv = x.pv - y.attaque
+       print ("Il reste",x.pv , "PV au", x.nom)
+       check_ko(self)
+
 def check_ko(self):
         if x.pv <= 0:
          print("Le pokemon", x.nom, "est K.O.")
@@ -153,4 +167,4 @@ def vainqueur(self):
        if x.pv <= 0:
          print ("Le pokemon", y.nom, "remporte le combat")
        elif y.pv <=0:
-        print ("Le pokemon", y.nom, "remporte le combat")
+        print ("Le pokemon", x.nom, "remporte le combat")
