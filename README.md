@@ -18,7 +18,7 @@ Driss Khelfi dans le cadre d'un projet à rendre pour l'école de La Plateforme
 
 ## 📁 Prérequis
 - Connaissance de bases en Programmation Orientée Objet Python
-- Culture JV sur Pokémon (Savoir que les forces et faiblesses des pokémon principaux)
+- Culture JV sur Pokémon (Connaître un peu les forces et faiblesses des pokémon principaux)
 
 
 ## 🛠️ Guide d'installation
