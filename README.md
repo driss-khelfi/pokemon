@@ -23,7 +23,7 @@ Driss Khelfi dans le cadre d'un projet à rendre pour l'école de La Plateforme
 ## 🛠️ Guide d'installation
 
 - Télécharger les composants dans un dossier
-- Ouvrir les dossiers .py via un logiciel IDE (ex: Visual Studio Code)
+- Ouvrir les fichiers .py via un logiciel IDE (ex: Visual Studio Code)
 - Exécuter le script
   
 ## 🕹️ Utilisation
